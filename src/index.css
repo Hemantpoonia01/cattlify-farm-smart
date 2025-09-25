@@ -8,35 +8,48 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Cattlify Brand Colors */
+    --brand-cream: 38 50% 92%; /* #f8edd9 */
+    --brand-dark: 345 43% 8%; /* #1a080c */
+    
+    /* Design System Colors */
+    --background: 38 30% 98%;
+    --foreground: 345 43% 8%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 38 40% 96%;
+    --card-foreground: 345 43% 8%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 38 40% 96%;
+    --popover-foreground: 345 43% 8%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 345 43% 8%;
+    --primary-foreground: 38 50% 92%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 38 50% 92%;
+    --secondary-foreground: 345 43% 8%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 38 20% 88%;
+    --muted-foreground: 345 20% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 38 50% 92%;
+    --accent-foreground: 345 43% 8%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 38 50% 92%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 38 25% 85%;
+    --input: 38 25% 85%;
+    --ring: 345 43% 8%;
 
-    --radius: 0.5rem;
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--brand-cream)), hsl(38 40% 88%));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--brand-dark)), hsl(345 30% 15%));
+    
+    /* Shadows */
+    --shadow-soft: 0 4px 20px -8px hsl(var(--brand-dark) / 0.1);
+    --shadow-elegant: 0 10px 40px -15px hsl(var(--brand-dark) / 0.15);
+    
+    --radius: 1rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -101,5 +114,56 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  /* Hero gradient background */
+  .gradient-hero {
+    background: var(--gradient-hero);
+  }
+  
+  .gradient-accent {
+    background: var(--gradient-accent);
+  }
+  
+  /* Elegant shadows */
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+  
+  .shadow-elegant {
+    box-shadow: var(--shadow-elegant);
+  }
+
+  /* Hover animations */
+  .hover-lift {
+    @apply transition-all duration-300 ease-in-out;
+  }
+  
+  .hover-lift:hover {
+    @apply transform -translate-y-2 shadow-elegant;
+  }
+
+  /* Brand text styles */
+  .text-brand-cream {
+    color: hsl(var(--brand-cream));
+  }
+  
+  .text-brand-dark {
+    color: hsl(var(--brand-dark));
+  }
+  
+  .bg-brand-cream {
+    background-color: hsl(var(--brand-cream));
+  }
+  
+  .bg-brand-dark {
+    background-color: hsl(var(--brand-dark));
   }
 }
