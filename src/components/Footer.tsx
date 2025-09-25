@@ -67,7 +67,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-brand-cream/20 text-center">
           <p className="text-brand-cream/60">
-            © 2024 Cattlify. All rights reserved. Made with ❤️ for better cattle care.
+            © 2024 Cattlify. All rights reserved.
           </p>
         </div>
       </div>
