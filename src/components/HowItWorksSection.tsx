@@ -38,7 +38,7 @@ const HowItWorksSection = () => {
           {steps.map((step, index) => (
             <div key={index} className="text-center relative">
               {/* Step Number */}
-              <div className="text-6xl font-bold text-secondary/50 mb-4">
+              <div className="text-6xl font-bold text-brand-dark/80 mb-4">
                 {step.number}
               </div>
               

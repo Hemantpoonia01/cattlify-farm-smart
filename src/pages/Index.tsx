@@ -1,4 +1,3 @@
-import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import HowItWorksSection from "@/components/HowItWorksSection";
@@ -13,7 +12,13 @@ const Index = () => {
         <h1>Cattlify - Smart Cattle Recognition and Management App</h1>
       </div>
       
-      <Header />
+      {/* Logo in top right */}
+      <div className="fixed top-6 right-6 z-50">
+        <div className="w-12 h-12 bg-brand-cream rounded-full flex items-center justify-center shadow-elegant">
+          <span className="text-brand-dark font-bold text-xl">C</span>
+        </div>
+      </div>
+      
       <HeroSection />
       <AboutSection />
       <HowItWorksSection />
