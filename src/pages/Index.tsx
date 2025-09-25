@@ -1,3 +1,4 @@
+import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
 import HowItWorksSection from "@/components/HowItWorksSection";
@@ -12,6 +13,7 @@ const Index = () => {
         <h1>Cattlify - Smart Cattle Recognition and Management App</h1>
       </div>
       
+      <Header />
       <HeroSection />
       <AboutSection />
       <HowItWorksSection />

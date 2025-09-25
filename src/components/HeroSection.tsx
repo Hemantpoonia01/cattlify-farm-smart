@@ -26,7 +26,7 @@ const HeroSection = () => {
             variant="secondary"
             className="px-12 py-6 text-lg font-semibold hover-lift shadow-elegant"
           >
-            Learn More
+            Download App
           </Button>
         </div>
       </div>
