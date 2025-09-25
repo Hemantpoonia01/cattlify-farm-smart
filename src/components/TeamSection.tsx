@@ -16,22 +16,22 @@ const TeamSection = () => {
     {
       name: "Himanshu Sharma",
       role: "APP Developer",
-      image: teamMember2
+      image: himanshu
     },
     {
       name: "Deepak Sodhi", 
       role: "Backend Developer",
-      image: teamMember3
+      image: teamMember6
     },
     {
       name: "Hemant Poonia",
       role: "UI/UX Designer",
-      image: teamMember4
+      image: hemant
     },
     {
       name: "AAROHI AGARWAL",
       role: "Research Analysis",
-      image: teamMember5
+      image: aarohi
     },
     {
       name: "AAKANKSHA RATHORE",
