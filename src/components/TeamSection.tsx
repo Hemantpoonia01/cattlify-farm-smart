@@ -58,7 +58,7 @@ const TeamSection = () => {
                 <img
                   src={member.image}
                   alt={`${member.name} - ${member.role}`}
-                  className="w-full h-full rounded-full object-cover shadow-soft group-hover:shadow-elegant transition-all duration-300"
+                  className="w-full h-full rounded-full object-cover shadow-soft group-hover:shadow-elegant transition-all duration-300 grayscale hover:grayscale-0"
                 />
                 <div className="absolute inset-0 rounded-full bg-gradient-to-t from-brand-dark/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>
