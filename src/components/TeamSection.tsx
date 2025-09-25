@@ -13,28 +13,28 @@ const TeamSection = () => {
       image: gopiSaraswat
     },
     {
-      name: "Michael Rodriguez",
-      role: "Project Manager",
+      name: "Himanshu Sharma",
+      role: "APP Developer",
       image: teamMember2
     },
     {
-      name: "David Kim", 
-      role: "UX Designer",
+      name: "Deepak Sodhi", 
+      role: "Backend Developer",
       image: teamMember3
     },
     {
-      name: "Dr. Emily Watson",
-      role: "Data Scientist",
+      name: "Hemant Poonia",
+      role: "UI/UX Designer",
       image: teamMember4
     },
     {
-      name: "Alex Thompson",
-      role: "Mobile Developer",
+      name: "AAROHI AGARWAL",
+      role: "Research Analysis",
       image: teamMember5
     },
     {
-      name: "Jessica Martinez",
-      role: "Marketing Specialist",
+      name: "AAKANKSHA RATHORE",
+      role: "Cordinator",
       image: teamMember6
     }
   ];
