@@ -1,9 +1,10 @@
 import gopiSaraswat from "@/assets/gopi-saraswat.jpg";
-import teamMember2 from "@/assets/team-member-2.jpg";
-import teamMember3 from "@/assets/team-member-3.jpg";
-import teamMember4 from "@/assets/team-member-4.jpg";
+import himanshu from "@/assets/himanshu.jpg";
+import hemant from "@/assets/hemant.jpg";
+import aarohi from "@/assets/aarohi.jpg";
 import teamMember5 from "@/assets/team-member-5.jpg";
 import teamMember6 from "@/assets/team-member-6.jpg";
+import himanshu from 
 
 const TeamSection = () => {
   const teamMembers = [
