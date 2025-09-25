@@ -1,4 +1,4 @@
-import teamMember1 from "@/assets/team-member-1.jpg";
+import gopiSaraswat from "@/assets/gopi-saraswat.jpg";
 import teamMember2 from "@/assets/team-member-2.jpg";
 import teamMember3 from "@/assets/team-member-3.jpg";
 import teamMember4 from "@/assets/team-member-4.jpg";
@@ -8,9 +8,9 @@ import teamMember6 from "@/assets/team-member-6.jpg";
 const TeamSection = () => {
   const teamMembers = [
     {
-      name: "Sarah Chen",
-      role: "Lead Developer",
-      image: teamMember1
+      name: "Gopi Saraswat",
+      role: "Team Leader",
+      image: gopiSaraswat
     },
     {
       name: "Michael Rodriguez",
