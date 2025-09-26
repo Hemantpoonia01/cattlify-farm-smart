@@ -4,7 +4,7 @@ import hemant from "@/assets/hemant.jpg";
 import aarohi from "@/assets/aarohi.jpg";
 import teamMember5 from "@/assets/team-member-5.jpg";
 import teamMember6 from "@/assets/team-member-6.jpg";
-import himanshu from 
+
 
 const TeamSection = () => {
   const teamMembers = [
