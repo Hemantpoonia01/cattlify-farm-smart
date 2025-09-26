@@ -3,7 +3,7 @@ import himanshu from "@/assets/himanshu.jpg";
 import hemant from "@/assets/hemant.jpg";
 import aarohi from "@/assets/aarohi.jpg";
 import deepak from "@/assets/deepak.jpg";
-import teamMember6 from "@/assets/team-member-6.jpg";
+import akansha from "@/assets/akansha.jpg";
 
 
 const TeamSection = () => {
@@ -36,7 +36,7 @@ const TeamSection = () => {
     {
       name: "AAKANKSHA RATHORE",
       role: "Cordinator",
-      image: teamMember6
+      image: akansha
     }
   ];
 
