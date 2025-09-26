@@ -14,9 +14,11 @@ const Index = () => {
       
       {/* Logo in top right */}
       <div className="fixed top-6 right-6 z-50">
-        <div className="w-12 h-12 bg-brand-cream rounded-full flex items-center justify-center shadow-elegant">
-          <span className="text-brand-dark font-bold text-xl">Cattlify</span>
-        </div>
+      <img
+  src="/path-to-your-logo.png"
+  alt="Cattlify Logo"
+  className="w-20 h-20 object-contain rounded-full shadow-elegant mx-auto"
+/>
       </div>
       
       <HeroSection />
