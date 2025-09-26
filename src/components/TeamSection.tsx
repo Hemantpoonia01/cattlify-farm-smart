@@ -56,11 +56,12 @@ const TeamSection = () => {
           {teamMembers.map((member, index) => (
             <div key={index} className="text-center group">
               <div className="relative mb-6 mx-auto w-32 h-32 md:w-40 md:h-40">
-                <img
-                  src={member.image}
-                  alt={`${member.name} - ${member.role}`}
-                  className="w-full h-full rounded-full object-cover shadow-soft group-hover:shadow-elegant transition-all duration-300 grayscale hover:grayscale-0"
-                />
+               <img
+                src={member.image}
+                      alt={`${member.name} - ${member.role}`}
+                          className="mx-auto w-32 h-32 md:w-40 md:h-40 rounded-full object-cover shadow-soft group-hover:shadow-elegant transition-all duration-300 grayscale hover:grayscale-0"
+                        />
+                  
                 <div className="absolute inset-0 rounded-full bg-gradient-to-t from-brand-dark/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>
               <h3 className="text-lg font-semibold text-brand-dark mb-2">
