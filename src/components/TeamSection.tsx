@@ -2,7 +2,7 @@ import gopiSaraswat from "@/assets/gopi-saraswat.jpg";
 import himanshu from "@/assets/himanshu.jpg";
 import hemant from "@/assets/hemant.jpg";
 import aarohi from "@/assets/aarohi.jpg";
-import teamMember5 from "@/assets/team-member-5.jpg";
+import deepak from "@/assets/deepak.jpg";
 import teamMember6 from "@/assets/team-member-6.jpg";
 
 
@@ -21,7 +21,7 @@ const TeamSection = () => {
     {
       name: "Deepak Sodhi", 
       role: "Backend Developer",
-      image: teamMember6
+      image: deepak
     },
     {
       name: "Hemant Poonia",
