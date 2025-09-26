@@ -21,6 +21,7 @@ const HeroSection = () => {
           <p className="text-xl md:text-2xl text-brand-cream/90 mb-12 max-w-3xl mx-auto leading-relaxed">
             Easily identify cattle breeds and manage herd health with our intuitive app.
           </p>
+          <a href="/cattlify-app.apk" download>
           <Button 
             size="lg" 
             variant="secondary"
@@ -28,6 +29,7 @@ const HeroSection = () => {
           >
             Download App
           </Button>
+            </a>
         </div>
       </div>
       
