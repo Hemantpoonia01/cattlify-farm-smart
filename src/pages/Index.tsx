@@ -13,13 +13,13 @@ const Index = () => {
       </div>
       
       {/* Logo in top right */}
-      <div className="fixed top-6 right-6 z-50">
+      {/* <div className="fixed top-6 right-6 z-50">
       <img
   src="@/assets/catlify.jpg"
   alt="Cattlify Logo"
   className="w-20 h-20 object-contain rounded-full shadow-elegant mx-auto"
 />
-      </div>
+      </div> */}
       
       <HeroSection />
       <AboutSection />
