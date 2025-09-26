@@ -8,7 +8,7 @@ import teamMember6 from "@/assets/team-member-6.jpg";
 
 const TeamSection = () => {
   const teamMembers = [
-    {
+    { 
       name: "Gopi Saraswat",
       role: "Team Leader",
       image: gopiSaraswat
